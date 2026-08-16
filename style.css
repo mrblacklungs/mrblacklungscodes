@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'Moggen';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/moggen.regular.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vellara';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/vellara.personal-use.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Warren';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/warren.regular.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Transcity';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/transcity.regular.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Orange Avenue';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/orange-avenue-demo.regular.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Puritan';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/puritan.regular.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/lato.regular.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/playfair-display.regular.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/poppins.regular.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Balery';
+  src: url('https://file.garden/aJ-V1e3UNxArbraS/fonts/balery-demo.regular.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body .cpkrs1  {
+    margin: auto;
+    }
+
+    body.day .cpkrs1, body.day .cpkrs1 {
+    --background-cpkrs1: #e9e9e9 !important;
+    }
+
+    body.night .cpkrs1, body.night .cpkrs1 {
+    --background-cpkrs1: #0a0a0a7a !important;
+    }
+
+body {
+    background-color: #464646;
+    margin: 0;
+    padding: 20px;
+}
+
+.cpkrs1 {
+    width: 500px;
+    margin: auto;
+    padding: 40px;
+    background-color: var(--background-cpkrs1);
+    outline: 1px solid var(--background-cpkrs1);
+    outline-offset: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cpkrs1 .cpkrs1-title {
+    width: auto;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    color: var(--accent);
+    margin-right: 82px;
+    letter-spacing: 2px;
+    grid-column: 2/5;
+}
+
+.cpkrs1 .cpkrs1-title2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 47px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    color: var(--accent);
+    margin-left:70px;
+    margin-top: -20px;
+    letter-spacing: 2px;
+    grid-column: 2/4;
+}
+
+.cpkrs1 .cpkrs1-subtitle {
+    position:relative;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration:line-through;
+    font-size: 10px;
+    font-family: 'Lato' sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(209, 208, 208);
+    grid-column: 2/4;
+}
+
+.cpkrs1 .cpkrs1-text {
+    text-align: justify;
+    padding: 10px;
+    padding-top: 20px;
+    grid-column: 1/5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.cpkrs1 .cpkrs1-dts{
+    grid-column: 1/5;
+    border-bottom: 1px solid var(--accent);
+    margin-bottom: 10px;
+}
+
+.cpkrs1 .cpkrs1-dts span{ 
+    position: relative;
+    top:35px;
+    left: 8px;
+    color:white;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top:10px;
+}
+
+.cpkrs1 .cpkrs1-dts span:after{
+    content:"—";
+    padding-left: 25px;
+ }
+
+ .cpkrs1 .cpkrs1-dts span:last-of-type:after{
+    content:"";
+ }
